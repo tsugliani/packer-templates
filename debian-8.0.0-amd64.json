@@ -68,7 +68,7 @@
     [
       {
         "type": "vagrant-vmware-ovf",
-        "compression_level": 9,
+        "compression_level": 3,
         "output": "./builds/{{ user `PACKER_BOX_NAME` }}_{{.Provider}}.box"
       }
     ]
